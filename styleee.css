@@ -1,0 +1,285 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login, .signup{
+    position: absolute;
+    left: 400px;
+    top: 90px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBC4AB;
+    /* column-gap: 30px; */
+}
+
+
+.form{
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+
+    /* position: relative; */
+    /* left: 300px; */
+
+}
+
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+
+form{
+    margin-top: 30px;
+}
+
+
+form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px ;
+    border-radius: 6px;
+}
+
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6;
+}
+
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+
+.field input:focus{
+    border-bottom-width: 2px;
+}
+
+.eye-icon{
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #F4978E;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.field button{
+    color: white;
+    background-color: #F08080;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.forgot_pass{
+    background-color: #F08080;
+}
+
+.field button:hover{
+    background-color: #F08080;
+
+}
+
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link span,
+.form-link a{
+     font-size: 14px;
+     font-weight: 400;
+     color: rgb(41, 37, 32);;
+}
+
+
+.form a{
+    color: F4978E;
+    text-decoration: none;
+}
+
+
+.form-content a:hover{
+    text-decoration: underline;
+}
+
+
+/* .line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+ 
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #232836;
+    padding: 0 15px;
+} */
+
+
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* a.facebook{
+    color: white;
+    background-color: #4367b2;
+}
+
+a.facebook .facebook-icon{
+    height: 28px;
+    width: 28px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.facebook-icon,
+.img.google-img{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body
+{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(144, 224, 239);
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background:  rgb(202, 240, 248);
+        border-radius: 15px ;
+        box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.241) ;
+
+
+}
+h2{
+    text-align: center;
+    color: rgb(0, 119, 182);
+    padding: 20px;
+    }
+
+label{
+    color: rgb(0, 119, 182);
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+    box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.093);
+
+
+}
+span{
+    color: rgb(0, 119, 182);
+    font-size: 17px;
+}
+a{
+    float: right;
+} */
